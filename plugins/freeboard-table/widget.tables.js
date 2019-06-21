@@ -2,7 +2,8 @@
 {
 	//Setting white-space to normal to override gridster's inherited value
 	freeboard.addStyle('table.list-table', "width: 100%; white-space: normal !important; ");
-	freeboard.addStyle('table.list-table td, table.list-table th', "padding: 2px 2px 2px 2px; vertical-align: top; ");
+	freeboard.addStyle('table.list-table td, table.list-table th', "font-size: 1.2em; padding: 5px 2px 5px 2px; vertical-align: top; ");
+        freeboard.addStyle('table.list-table td',"border-top: 2px groove #d3d4d4; margin-top: 2px;color:#d3d4d4");
 	
 	var tableWidget = function (settings) {
 	        var self = this;
