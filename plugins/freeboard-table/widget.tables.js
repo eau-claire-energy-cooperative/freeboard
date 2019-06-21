@@ -85,7 +85,7 @@
         }
 
         this.getHeight = function () {    
-			var height = Math.ceil(stateElement.height() / 55);			
+			var height = currentSettings.height;
 			return (height > 0 ? height : 1);
         }
 
@@ -111,6 +111,13 @@
                 name: "replace_value",
                 display_name: "Replace blank values",
                 type: "text"
+            },
+            {
+                name: "height",
+                display_name: "Widget Height",
+                description: "Height of the Widget",
+                type: "text",
+                default_value: 1
             },
 			{
                 name: "value",
