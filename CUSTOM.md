@@ -22,3 +22,4 @@ To load a pre-made dashboard on startup, make sure the dashboard file is in the 
   {......}
 ]
 ```
+* jqplot - added the Freeboard jqplot plugin available here: https://github.com/jritsema/freeboard-jqplot
