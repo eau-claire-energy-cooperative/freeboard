@@ -4,10 +4,10 @@ This is a fork of the original Freeboard repository with some custom changes.
 
 ## Loading Specific Dashboard
 
-To load a pre-made dashboard on startup, make sure the dashboard file is in the directory with the index.html file. The use: 
+To load a pre-made dashboard on startup, make sure the dashboard file is in the directory with the index.html file. Then use: 
 
 ```
-/index.html#source=dashboard.json
+/index.html?load=dashboard.json
 
 ```
 
